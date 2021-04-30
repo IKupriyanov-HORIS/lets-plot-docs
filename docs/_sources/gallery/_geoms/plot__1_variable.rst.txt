@@ -39,6 +39,14 @@ properties to represent variables. Each function returns a layer.
 
 
 
+.. rst-class:: sphx-glr-script-out
+
+ Out:
+
+ .. code-block:: none
+
+    WARN: Embedding Lets-Plot JS library for offline usage is not supported.
+
 
 
 
@@ -92,10 +100,10 @@ Continuous Variable
     <div class="output_subarea output_html rendered_html output_result">
     <html lang="en">
        <head>
-           <script type="text/javascript" data-lets-plot-script="library" src="https://cdnjs.cloudflare.com/ajax/libs/lets-plot/2.0.2/lets-plot.min.js"></script>
+           <script type="text/javascript" data-lets-plot-script="library" src="http://127.0.0.1:8080/2.0.3.dev1/lets-plot.js"></script>
        </head>
        <body>
-              <div id="gU4QBU"></div>
+              <div id="w6ZsRI"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     'data':{
@@ -120,7 +128,7 @@ Continuous Variable
     }
     }]
     };
-           var plotContainer = document.getElementById("gU4QBU");
+           var plotContainer = document.getElementById("w6ZsRI");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -146,10 +154,10 @@ Continuous Variable
     <div class="output_subarea output_html rendered_html output_result">
     <html lang="en">
        <head>
-           <script type="text/javascript" data-lets-plot-script="library" src="https://cdnjs.cloudflare.com/ajax/libs/lets-plot/2.0.2/lets-plot.min.js"></script>
+           <script type="text/javascript" data-lets-plot-script="library" src="http://127.0.0.1:8080/2.0.3.dev1/lets-plot.js"></script>
        </head>
        <body>
-              <div id="OuY7bo"></div>
+              <div id="rA8bhb"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     'data':{
@@ -173,7 +181,7 @@ Continuous Variable
     }
     }]
     };
-           var plotContainer = document.getElementById("OuY7bo");
+           var plotContainer = document.getElementById("rA8bhb");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -199,10 +207,10 @@ Continuous Variable
     <div class="output_subarea output_html rendered_html output_result">
     <html lang="en">
        <head>
-           <script type="text/javascript" data-lets-plot-script="library" src="https://cdnjs.cloudflare.com/ajax/libs/lets-plot/2.0.2/lets-plot.min.js"></script>
+           <script type="text/javascript" data-lets-plot-script="library" src="http://127.0.0.1:8080/2.0.3.dev1/lets-plot.js"></script>
        </head>
        <body>
-              <div id="d8i0ZN"></div>
+              <div id="wGHXrc"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     'data':{
@@ -226,7 +234,7 @@ Continuous Variable
     }
     }]
     };
-           var plotContainer = document.getElementById("d8i0ZN");
+           var plotContainer = document.getElementById("wGHXrc");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -252,10 +260,10 @@ Continuous Variable
     <div class="output_subarea output_html rendered_html output_result">
     <html lang="en">
        <head>
-           <script type="text/javascript" data-lets-plot-script="library" src="https://cdnjs.cloudflare.com/ajax/libs/lets-plot/2.0.2/lets-plot.min.js"></script>
+           <script type="text/javascript" data-lets-plot-script="library" src="http://127.0.0.1:8080/2.0.3.dev1/lets-plot.js"></script>
        </head>
        <body>
-              <div id="Z5DNu2"></div>
+              <div id="LTp071"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     'data':{
@@ -279,7 +287,7 @@ Continuous Variable
     }
     }]
     };
-           var plotContainer = document.getElementById("Z5DNu2");
+           var plotContainer = document.getElementById("LTp071");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -308,10 +316,10 @@ Discrete Variable
     <div class="output_subarea output_html rendered_html output_result">
     <html lang="en">
        <head>
-           <script type="text/javascript" data-lets-plot-script="library" src="https://cdnjs.cloudflare.com/ajax/libs/lets-plot/2.0.2/lets-plot.min.js"></script>
+           <script type="text/javascript" data-lets-plot-script="library" src="http://127.0.0.1:8080/2.0.3.dev1/lets-plot.js"></script>
        </head>
        <body>
-              <div id="wHpKAN"></div>
+              <div id="aAs9IA"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     'data':{
@@ -335,7 +343,7 @@ Discrete Variable
     }
     }]
     };
-           var plotContainer = document.getElementById("wHpKAN");
+           var plotContainer = document.getElementById("aAs9IA");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -347,7 +355,7 @@ Discrete Variable
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.340 seconds)
+   **Total running time of the script:** ( 0 minutes  0.535 seconds)
 
 
 .. _sphx_glr_download_gallery__geoms_plot__1_variable.py:
