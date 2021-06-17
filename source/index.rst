@@ -36,46 +36,45 @@ Lets-Plot for Python |official JetBrains project|
        </tr>
    </table>
 
-.. raw:: html
+.. panels::
+    :container: previews-container
+    :column:
 
-    <div class="previews-row">
-      <a href="https://www.kaggle.com/alshan/visualization-of-the-titanic-s-voyage">
-        <img src="_static/images/previews/visualization-of-the-titanic-s-voyage.png" width="200" height="200" />
-      </a>
-      <a href="https://www.kaggle.com/alshan/visualization-of-airport-data-on-map">
-        <img src="_static/images/previews/visualization-of-airport-data-on-map.png" width="200" height="200" />
-      </a>
-      <a href="https://www.kaggle.com/alshan/the-gallery-of-basemaps">
-        <img src="_static/images/previews/the-gallery-of-basemaps.png" width="200" height="200" />
-      </a>
-      <a href="https://www.kaggle.com/alshan/mapping-us-household-income">
-        <img src="_static/images/previews/mapping-us-household-income.png" width="200" height="200" />
-      </a>
-      <a href="https://datalore.jetbrains.com/view/notebook/eifzdh96VYuNrcjuOpYPYr">
-        <img src="_static/images/previews/plotting-airbnb-prices-boston.png" width="200" height="200" />
-      </a>
-      <a href="https://www.kaggle.com/alshan/beijing-housing-prices-on-a-map-with-spatial-join">
-        <img src="_static/images/previews/beijing-housing-prices-on-a-map-with-spatial-join.png" width="200" height="200" />
-      </a>
-      <a href="https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/map-california-housing/map_california_housing.ipynb">
-        <img src="_static/images/previews/map_california_housing.png" width="200" height="200" />
-      </a>
-      <a href="https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geocoding_examples.ipynb">
-        <img src="_static/images/previews/geocoding_examples.png" width="200" height="200" />
-      </a>
-      <a href="https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/map_US_household_income.ipynb">
-        <img src="_static/images/previews/map_US_household_income.png" width="200" height="200" />
-      </a>
-      <a href="https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geocoding_reference.ipynb">
-        <img src="_static/images/previews/geocoding_reference.png" width="200" height="200" />
-      </a>
-      <a href="https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_naturalearth.ipynb">
-        <img src="_static/images/previews/geopandas_naturalearth.png" width="200" height="200" />
-      </a>
-      <a href="https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_kotlin_isl.ipynb">
-        <img src="_static/images/previews/geopandas_kotlin_isl.png" width="200" height="200" />
-      </a>
-    </div>
+    .. image:: _static/images/previews/visualization-of-the-titanic-s-voyage.png
+        :target: https://www.kaggle.com/alshan/visualization-of-the-titanic-s-voyage
+    ---
+    .. image:: _static/images/previews/visualization-of-airport-data-on-map.png
+        :target: https://www.kaggle.com/alshan/visualization-of-airport-data-on-map
+    ---
+    .. image:: _static/images/previews/the-gallery-of-basemaps.png
+        :target: https://www.kaggle.com/alshan/the-gallery-of-basemaps
+    ---
+    .. image:: _static/images/previews/mapping-us-household-income.png
+        :target: https://www.kaggle.com/alshan/mapping-us-household-income
+    ---
+    .. image:: _static/images/previews/plotting-airbnb-prices-boston.png
+        :target: https://datalore.jetbrains.com/view/notebook/eifzdh96VYuNrcjuOpYPYr
+    ---
+    .. image:: _static/images/previews/beijing-housing-prices-on-a-map-with-spatial-join.png
+        :target: https://www.kaggle.com/alshan/beijing-housing-prices-on-a-map-with-spatial-join
+    ---
+    .. image:: _static/images/previews/map_california_housing.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/map-california-housing/map_california_housing.ipynb
+    ---
+    .. image:: _static/images/previews/geocoding_examples.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geocoding_examples.ipynb
+    ---
+    .. image:: _static/images/previews/map_US_household_income.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/map_US_household_income.ipynb
+    ---
+    .. image:: _static/images/previews/geocoding_reference.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geocoding_reference.ipynb
+    ---
+    .. image:: _static/images/previews/geopandas_naturalearth.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_naturalearth.ipynb
+    ---
+    .. image:: _static/images/previews/geopandas_kotlin_isl.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_kotlin_isl.ipynb
 
 Overview
 ~~~~~~~~

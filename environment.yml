@@ -13,5 +13,6 @@ dependencies:
   - scipy
   - sphinx
   - sphinx-gallery
+  - sphinx-panels
   - pip:
     - sphinx_bootstrap_theme
