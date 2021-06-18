@@ -6,147 +6,104 @@
    contain the root `toctree` directive.
 
 
-Lets-Plot for Python |official JetBrains project|
-=================================================
+Declarative Data Visualization with Lets-Plot
+=============================================
+
+.. panels::
+    :container: + preview-window
+    :column: col-lg-12 p-2
+
+    |visualization-of-airport-data-on-map|
+
+.. |visualization-of-airport-data-on-map| image:: _static/images/previews/visualization-of-airport-data-on-map_1024x768.png
+    :target: https://www.kaggle.com/alshan/visualization-of-airport-data-on-map
+.. |geom_smooth| image:: _static/images/previews/geom_smooth_1024x768.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geom_smooth.ipynb
+.. |geopandas_kotlin_isl| image:: _static/images/previews/geopandas_kotlin_isl_1024x768.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_kotlin_isl.ipynb
+.. |formatting_axes_etc| image:: _static/images/previews/formatting_axes_etc_1024x768.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/formatting_axes_etc.ipynb
+
+.. panels::
+    :container: + preview-picker
+    :column: col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2
+
+    .. image:: _static/images/previews/visualization-of-airport-data-on-map_200x200.png
+        :target: https://www.kaggle.com/alshan/visualization-of-airport-data-on-map
+
+    ---
+    .. image:: _static/images/previews/geom_smooth_200x200.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geom_smooth.ipynb
+
+    ---
+    .. image:: _static/images/previews/geopandas_kotlin_isl_200x200.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_kotlin_isl.ipynb
+
+    ---
+    .. image:: _static/images/previews/formatting_axes_etc_200x200.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/formatting_axes_etc.ipynb
 
 .. raw:: html
 
-   <table class="table table-striped table-bordered">
-       <tr>
-           <td>Latest Release</td>
-           <td>
-               <a href="https://pypi.org/project/lets-plot/"/>
-               <img src="https://badge.fury.io/py/lets-plot.svg"/>
-           </td>
-       </tr>
-       <tr>
-           <td>License</td>
-           <td>
-               <a href="https://opensource.org/licenses/MIT"/>
-               <img src="https://img.shields.io/badge/License-MIT-yellow.svg"/>
-           </td>
-       </tr>
-       <tr>
-           <td>OS</td>
-           <td>Linux, MacOS, Windows</td>
-       </tr>
-       <tr>
-           <td>Python versions</td>
-           <td>3.6, 3.7, 3.8, 3.9</td>
-       </tr>
-   </table>
+    <div id="try-lets-plot">
+      <div>
+        <a href="https://pypi.org/project/lets-plot" target="_blank">
+          <button>Install with pip</button>
+        </a>
+      </div>
+      <div>
+        <a href="#" class="reference internal">Installation Guide</a>
+      </div>
+    </div>
 
 .. panels::
-    :container: previews-container
-    :column:
+    :column: col-lg-8 col-md-4 col-sm-6 col-xs-12 p-2
 
-    .. image:: _static/images/previews/visualization-of-the-titanic-s-voyage.png
-        :target: https://www.kaggle.com/alshan/visualization-of-the-titanic-s-voyage
+    About Lets-Plot
+    ^^^^^^^^^^^^^^^
+
+    The Lets-Plot for Python library includes a native backend and a Python API, which was mostly based on the `ggplot2 <https://ggplot2.tidyverse.org>`__ package well-known to data scientists who use R.
+
+    So you have an excellent possibility to learn the grammar of graphics with Lets-Plot.
+
     ---
-    .. image:: _static/images/previews/visualization-of-airport-data-on-map.png
-        :target: https://www.kaggle.com/alshan/visualization-of-airport-data-on-map
-    ---
-    .. image:: _static/images/previews/the-gallery-of-basemaps.png
-        :target: https://www.kaggle.com/alshan/the-gallery-of-basemaps
-    ---
-    .. image:: _static/images/previews/mapping-us-household-income.png
-        :target: https://www.kaggle.com/alshan/mapping-us-household-income
-    ---
-    .. image:: _static/images/previews/plotting-airbnb-prices-boston.png
-        :target: https://datalore.jetbrains.com/view/notebook/eifzdh96VYuNrcjuOpYPYr
-    ---
-    .. image:: _static/images/previews/beijing-housing-prices-on-a-map-with-spatial-join.png
-        :target: https://www.kaggle.com/alshan/beijing-housing-prices-on-a-map-with-spatial-join
-    ---
-    .. image:: _static/images/previews/map_california_housing.png
-        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/map-california-housing/map_california_housing.ipynb
-    ---
-    .. image:: _static/images/previews/geocoding_examples.png
-        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geocoding_examples.ipynb
-    ---
-    .. image:: _static/images/previews/map_US_household_income.png
-        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/map_US_household_income.ipynb
-    ---
-    .. image:: _static/images/previews/geocoding_reference.png
-        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geocoding_reference.ipynb
-    ---
-    .. image:: _static/images/previews/geopandas_naturalearth.png
-        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_naturalearth.ipynb
-    ---
-    .. image:: _static/images/previews/geopandas_kotlin_isl.png
-        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_kotlin_isl.ipynb
+    :column: col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2
+    .. image:: _static/images/the-grammar-of-graphics-cover.jpg
+        :target: https://www.springer.com/gp/book/9781475731002
 
-Overview
-~~~~~~~~
+Try it now with Datalore
+------------------------
 
-The ``Lets-Plot for Python`` library includes a native backend and a
-Python API, which was mostly based on the
-`ggplot2 <https://ggplot2.tidyverse.org>`__ package well-known to data
-scientists who use R.
+You can try the Lets-Plot library in `Datalore <https://datalore.jetbrains.com>`__. Lets-Plot is available in Datalore out-of-the-box.
 
-R ggplot2 has extensive documentation and a multitude of examples and
-therefore is an excellent resource for those who want to learn the
-grammar of graphics.
+The advantage of `Datalore <https://datalore.jetbrains.com>`__ as a learning tool in comparison to Jupyter is that it is equipped with very friendly Python editor which comes with auto-completion, intentions, and other useful coding assistance features.
 
-Note that the Python API being very similar yet is different in detail
-from R. Although we have not implemented the entire ggplot2 API in our
-Python package, we have added a few new features to our Python API.
+Begin with the `quickstart in Datalore <https://view.datalore.io/notebook/Zzg9EVS6i16ELQo3arzWsP>`__ notebook to learn more about Datalore notebooks.
 
-You can try the Lets-Plot library in
-`Datalore <https://datalore.jetbrains.com>`__. Lets-Plot is available in
-Datalore out-of-the-box (i.e. you can ignore the
-`Installation <#installation>`__ chapter below).
+.. raw:: html
 
-The advantage of `Datalore <https://datalore.jetbrains.com>`__ as a
-learning tool in comparison to Jupyter is that it is equipped with very
-friendly Python editor which comes with auto-completion, intentions, and
-other useful coding assistance features.
+    <div class="video-container">
+      <div id="youtube-quickstart-with-datalore"></div>
+    </div>
 
-Begin with the `quickstart in
-Datalore <https://view.datalore.io/notebook/Zzg9EVS6i16ELQo3arzWsP>`__
-notebook to learn more about Datalore notebooks.
+    <script>
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/player_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-Watch the `Datalore Getting Started
-Tutorial <https://youtu.be/MjvFQxqNSe0>`__ video for a quick
-introduction to Datalore.
+      var player;
+      function onYouTubePlayerAPIReady() {
+        player = new YT.Player('youtube-quickstart-with-datalore', {
+          height: '360',
+          width: '640',
+          videoId: 'MjvFQxqNSe0'
+        });
+      }
+    </script>
 
-Installation
-~~~~~~~~~~~~
-
-.. _1-for-linux-and-mac-users:
-
-1. For Linux and Mac users:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-To install the Lets-Plot library, run the following command:
-
-.. code:: shell
-
-   pip install lets-plot
-
-.. _2-for-windows-users:
-
-2. For Windows users:
-^^^^^^^^^^^^^^^^^^^^^
-
-Install Anaconda3 (or Miniconda3), then install MinGW toolchain to
-Conda:
-
-.. code:: shell
-
-   conda install m2w64-toolchain
-
-Install the Lets-Plot library:
-
-.. code:: shell
-
-   pip install lets-plot
-
-.. |official JetBrains project| image:: http://jb.gg/badges/official-flat-square.svg
-   :target: https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub
-
-Quick start with Jupyter
-~~~~~~~~~~~~~~~~~~~~~~~~
+Quickstart
+----------
 
 You can use Lets-Plot in Jupyter notebook or other notebook of your choice, like Datalore, Kaggle or Colab.
 
@@ -169,30 +126,88 @@ To evaluate the plotting capabilities of Lets-Plot, add the following code to a 
         geom_density(color='dark_green', alpha=.7) + scale_fill_brewer(type='seq') + \
         theme(axis_line_y='blank')
 
+.. panels::
+    :container: + platforms-for-lets-plot
+    :column: col-lg-2 col-md-4 col-sm-6 col-xs-12 p-2
+
+    .. image:: https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/quickstart.ipynb
+
+    ---
+    .. image:: https://raw.githubusercontent.com/JetBrains/lets-plot/master/docs/examples/images/logo_datalore.svg
+        :target: https://view.datalore.io/notebook/Zzg9EVS6i16ELQo3arzWsP
+
+    ---
+    .. image:: _static/images/icon-pycharm.svg
+
+    ---
+    .. image:: https://raw.githubusercontent.com/JetBrains/lets-plot/master/docs/examples/images/logo_kaggle.svg
+        :target: https://www.kaggle.com/alshan/lets-plot-quickstart
+
+    ---
+    .. image:: https://raw.githubusercontent.com/JetBrains/lets-plot/master/docs/examples/images/logo_colab.svg
+        :target: https://colab.research.google.com/drive/1uYYZcG0g0kP4lJdPkpWB8aBS96ioDii2?usp=sharing
+
+    ---
+    .. image:: https://raw.githubusercontent.com/JetBrains/lets-plot/master/docs/examples/images/logo_deepnote.svg
+        :target: https://deepnote.com/project/673ea421-638e-469d-8d04-5cc4c6e0258f#%2Fnotebook.ipynb
+
+More Examples
+-------------
+
+.. panels::
+    :container: + preview-gallery
+    :column: col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2
+
+    .. image:: _static/images/previews/visualization-of-airport-data-on-map_200x200.png
+        :target: https://www.kaggle.com/alshan/visualization-of-airport-data-on-map
+
+    ---
+    .. image:: _static/images/previews/geom_smooth_200x200.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geom_smooth.ipynb
+
+    ---
+    .. image:: _static/images/previews/geopandas_kotlin_isl_200x200.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_kotlin_isl.ipynb
+
+    ---
+    .. image:: _static/images/previews/formatting_axes_etc_200x200.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/formatting_axes_etc.ipynb
+
+    ---
+    .. image:: _static/images/previews/geom_smooth_200x200.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geom_smooth.ipynb
+
+    ---
+    .. image:: _static/images/previews/geopandas_kotlin_isl_200x200.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_kotlin_isl.ipynb
+
+    ---
+    .. image:: _static/images/previews/formatting_axes_etc_200x200.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/formatting_axes_etc.ipynb
+
+    ---
+    .. image:: _static/images/previews/visualization-of-airport-data-on-map_200x200.png
+        :target: https://www.kaggle.com/alshan/visualization-of-airport-data-on-map
+
+    ---
+    .. image:: _static/images/previews/geopandas_kotlin_isl_200x200.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_kotlin_isl.ipynb
+
+    ---
+    .. image:: _static/images/previews/formatting_axes_etc_200x200.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/formatting_axes_etc.ipynb
+
+    ---
+    .. image:: _static/images/previews/visualization-of-airport-data-on-map_200x200.png
+        :target: https://www.kaggle.com/alshan/visualization-of-airport-data-on-map
+
+    ---
+    .. image:: _static/images/previews/geom_smooth_200x200.png
+        :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geom_smooth.ipynb
+
 .. raw:: html
 
-   <br/>
-   <a href="https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/quickstart.ipynb"> 
-       <img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.png" width="109" height="20" align="left">
-   </a>
-   <span>&nbsp;&nbsp;</span>
-   <a href="https://view.datalore.io/notebook/Zzg9EVS6i16ELQo3arzWsP" title="View in Datalore"> 
-       <img src="https://raw.githubusercontent.com/JetBrains/lets-plot/master/docs/examples/images/logo_datalore.svg" width="20" height="20">
-   </a>
-   <span>&nbsp;&nbsp;</span>
-   <a href="https://www.kaggle.com/alshan/lets-plot-quickstart" title="View at Kaggle"> 
-       <img src="https://raw.githubusercontent.com/JetBrains/lets-plot/master/docs/examples/images/logo_kaggle.svg" width="20" height="20">
-   </a>
-   <span>&nbsp;&nbsp;</span>
-   <a href="https://colab.research.google.com/drive/1uYYZcG0g0kP4lJdPkpWB8aBS96ioDii2?usp=sharing" title="View at Colab"> 
-       <img src="https://raw.githubusercontent.com/JetBrains/lets-plot/master/docs/examples/images/logo_colab.svg" width="20" height="20">
-   </a>
-   <span>&nbsp;&nbsp;</span>
-   <a href="https://deepnote.com/project/673ea421-638e-469d-8d04-5cc4c6e0258f#%2Fnotebook.ipynb" title="View at Deepnote"> 
-       <img src="https://raw.githubusercontent.com/JetBrains/lets-plot/master/docs/examples/images/logo_deepnote.svg" width="20" height="20">
-   </a>
-
-Change Log
-~~~~~~~~~~
-
-See `CHANGELOG.md <https://github.com/JetBrains/lets-plot/blob/master/CHANGELOG.md>`__ for other changes and fixes.
+    <div id="preview-gallery-more">
+      <a href="#" class="reference internal">Show More</a>
+    </div>

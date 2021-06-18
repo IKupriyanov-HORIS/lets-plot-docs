@@ -104,7 +104,6 @@ release = lets_plot.__version__
 html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 html_show_sourcelink = False
-panels_add_bootstrap_css = False
 
 html_theme_options = {
     'navbar_title': 'Lets-Plot',
