@@ -87,7 +87,7 @@ Legend Guide
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="oow7Vg"></div>
+              <div id="Igx4qs"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -131,7 +131,7 @@ Legend Guide
     }
     }]
     };
-           var plotContainer = document.getElementById("oow7Vg");
+           var plotContainer = document.getElementById("Igx4qs");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -166,7 +166,7 @@ Colorbar Guide
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="C3BcNy"></div>
+              <div id="IRekSA"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -202,7 +202,7 @@ Colorbar Guide
     }
     }]
     };
-           var plotContainer = document.getElementById("C3BcNy");
+           var plotContainer = document.getElementById("IRekSA");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -214,7 +214,7 @@ Colorbar Guide
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.213 seconds)
+   **Total running time of the script:** ( 0 minutes  0.290 seconds)
 
 
 .. _sphx_glr_download_gallery__legends_plot__guide.py:

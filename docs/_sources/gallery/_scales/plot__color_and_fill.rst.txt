@@ -88,7 +88,7 @@ Discrete
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="1DMyd9"></div>
+              <div id="rcNK1M"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -115,7 +115,7 @@ Discrete
     }
     }]
     };
-           var plotContainer = document.getElementById("1DMyd9");
+           var plotContainer = document.getElementById("rcNK1M");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -145,7 +145,7 @@ Discrete
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="Z8Uvhh"></div>
+              <div id="CY2PHE"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -182,7 +182,7 @@ Discrete
     }
     }]
     };
-           var plotContainer = document.getElementById("Z8Uvhh");
+           var plotContainer = document.getElementById("CY2PHE");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -212,7 +212,7 @@ Discrete
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="imWe5p"></div>
+              <div id="WBdGxZ"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -249,7 +249,7 @@ Discrete
     }
     }]
     };
-           var plotContainer = document.getElementById("imWe5p");
+           var plotContainer = document.getElementById("WBdGxZ");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -284,7 +284,7 @@ Continuous
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="vbDsKT"></div>
+              <div id="7ymQDR"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -309,7 +309,7 @@ Continuous
     }
     }]
     };
-           var plotContainer = document.getElementById("vbDsKT");
+           var plotContainer = document.getElementById("7ymQDR");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -338,7 +338,7 @@ Continuous
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="Oooycq"></div>
+              <div id="yueBam"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -368,7 +368,7 @@ Continuous
     }
     }]
     };
-           var plotContainer = document.getElementById("Oooycq");
+           var plotContainer = document.getElementById("yueBam");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -397,7 +397,7 @@ Continuous
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="Taov9r"></div>
+              <div id="yzXAwB"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -429,7 +429,7 @@ Continuous
     }
     }]
     };
-           var plotContainer = document.getElementById("Taov9r");
+           var plotContainer = document.getElementById("yzXAwB");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -456,7 +456,7 @@ Continuous
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="xuqWCW"></div>
+              <div id="KfsEdV"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -486,7 +486,7 @@ Continuous
     }
     }]
     };
-           var plotContainer = document.getElementById("xuqWCW");
+           var plotContainer = document.getElementById("KfsEdV");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>

@@ -93,7 +93,7 @@ Look at the examples of 1D distributions below.
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="Nn8xBV"></div>
+              <div id="WuhSDc"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "kind":"ggbunch",
@@ -221,7 +221,7 @@ Look at the examples of 1D distributions below.
     }
     }]
     };
-           var plotContainer = document.getElementById("Nn8xBV");
+           var plotContainer = document.getElementById("WuhSDc");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -256,7 +256,7 @@ Look at the examples of 1D distributions below.
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="vIJJMx"></div>
+              <div id="K39iJk"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "kind":"ggbunch",
@@ -323,7 +323,7 @@ Look at the examples of 1D distributions below.
     }
     }]
     };
-           var plotContainer = document.getElementById("vIJJMx");
+           var plotContainer = document.getElementById("K39iJk");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -335,7 +335,7 @@ Look at the examples of 1D distributions below.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.540 seconds)
+   **Total running time of the script:** ( 0 minutes  0.450 seconds)
 
 
 .. _sphx_glr_download_gallery__stats_plot__1d_distributions.py:

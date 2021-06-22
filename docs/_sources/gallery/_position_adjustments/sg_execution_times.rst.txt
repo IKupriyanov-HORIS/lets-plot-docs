@@ -5,14 +5,14 @@
 
 Computation times
 =================
-**00:00.595** total execution time for **gallery__position_adjustments** files:
+**00:00.680** total execution time for **gallery__position_adjustments** files:
 
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_gallery__position_adjustments_plot__jitterdodge_position.py` (``plot__jitterdodge_position.py``) | 00:00.209 | 0.0 MB |
+| :ref:`sphx_glr_gallery__position_adjustments_plot__dodge_position.py` (``plot__dodge_position.py``)             | 00:00.190 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_gallery__position_adjustments_plot__jitter_position.py` (``plot__jitter_position.py``)           | 00:00.190 | 0.0 MB |
+| :ref:`sphx_glr_gallery__position_adjustments_plot__jitterdodge_position.py` (``plot__jitterdodge_position.py``) | 00:00.190 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_gallery__position_adjustments_plot__dodge_position.py` (``plot__dodge_position.py``)             | 00:00.122 | 0.0 MB |
+| :ref:`sphx_glr_gallery__position_adjustments_plot__nudge_position.py` (``plot__nudge_position.py``)             | 00:00.160 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_gallery__position_adjustments_plot__nudge_position.py` (``plot__nudge_position.py``)             | 00:00.074 | 0.0 MB |
+| :ref:`sphx_glr_gallery__position_adjustments_plot__jitter_position.py` (``plot__jitter_position.py``)           | 00:00.140 | 0.0 MB |
 +-----------------------------------------------------------------------------------------------------------------+-----------+--------+

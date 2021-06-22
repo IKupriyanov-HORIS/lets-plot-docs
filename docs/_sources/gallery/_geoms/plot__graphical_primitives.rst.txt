@@ -149,7 +149,7 @@ Polygon
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="SuzY1z"></div>
+              <div id="pKghch"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "mapping":{
@@ -179,7 +179,7 @@ Polygon
     "fill":"gray"
     }]
     };
-           var plotContainer = document.getElementById("SuzY1z");
+           var plotContainer = document.getElementById("pKghch");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -227,7 +227,7 @@ Path and Ribbon
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="45sMwV"></div>
+              <div id="tTMJG9"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -255,7 +255,7 @@ Path and Ribbon
     }
     }]
     };
-           var plotContainer = document.getElementById("45sMwV");
+           var plotContainer = document.getElementById("tTMJG9");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -284,7 +284,7 @@ Path and Ribbon
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="tV4Qf3"></div>
+              <div id="CWCj9j"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -312,7 +312,7 @@ Path and Ribbon
     }
     }]
     };
-           var plotContainer = document.getElementById("tV4Qf3");
+           var plotContainer = document.getElementById("CWCj9j");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -346,7 +346,7 @@ Segment and Rectangle
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="PgScrj"></div>
+              <div id="gpwt0Y"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "mapping":{
@@ -372,7 +372,7 @@ Segment and Rectangle
     }
     }]
     };
-           var plotContainer = document.getElementById("PgScrj");
+           var plotContainer = document.getElementById("gpwt0Y");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -399,7 +399,7 @@ Segment and Rectangle
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="eyOy4U"></div>
+              <div id="KMYSH3"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "mapping":{
@@ -422,7 +422,7 @@ Segment and Rectangle
     }
     }]
     };
-           var plotContainer = document.getElementById("eyOy4U");
+           var plotContainer = document.getElementById("KMYSH3");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>

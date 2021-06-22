@@ -78,7 +78,7 @@ See
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="9eTvYw"></div>
+              <div id="88kxqA"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -110,7 +110,7 @@ See
     }
     }]
     };
-           var plotContainer = document.getElementById("9eTvYw");
+           var plotContainer = document.getElementById("88kxqA");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -122,7 +122,7 @@ See
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.077 seconds)
+   **Total running time of the script:** ( 0 minutes  0.170 seconds)
 
 
 .. _sphx_glr_download_gallery__legends_plot__legend_place.py:

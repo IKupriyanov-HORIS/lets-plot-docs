@@ -85,7 +85,7 @@ See
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="cAgLL8"></div>
+              <div id="ARZbkI"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "kind":"ggbunch",
@@ -157,7 +157,7 @@ See
     }
     }]
     };
-           var plotContainer = document.getElementById("cAgLL8");
+           var plotContainer = document.getElementById("ARZbkI");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -169,7 +169,7 @@ See
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.130 seconds)
+   **Total running time of the script:** ( 0 minutes  0.110 seconds)
 
 
 .. _sphx_glr_download_gallery__coordinate_systems_plot__fixed_coordinates.py:

@@ -97,7 +97,7 @@ aesthetic.
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="414yAN"></div>
+              <div id="uz00Bf"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "kind":"ggbunch",
@@ -176,7 +176,7 @@ aesthetic.
     }
     }]
     };
-           var plotContainer = document.getElementById("414yAN");
+           var plotContainer = document.getElementById("uz00Bf");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -210,7 +210,7 @@ aesthetic.
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="TYgBCe"></div>
+              <div id="aln1ar"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "kind":"ggbunch",
@@ -289,7 +289,7 @@ aesthetic.
     }
     }]
     };
-           var plotContainer = document.getElementById("TYgBCe");
+           var plotContainer = document.getElementById("aln1ar");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -301,7 +301,7 @@ aesthetic.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.190 seconds)
+   **Total running time of the script:** ( 0 minutes  0.200 seconds)
 
 
 .. _sphx_glr_download_gallery__scales_plot__size_scales.py:

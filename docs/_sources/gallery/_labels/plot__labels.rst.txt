@@ -82,7 +82,7 @@ Use ``xlab()``, ``ylab()`` and ``labs()`` functions to set plot labels.
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="sSfoH0"></div>
+              <div id="zNgFRD"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -113,7 +113,7 @@ Use ``xlab()``, ``ylab()`` and ``labs()`` functions to set plot labels.
     }
     }]
     };
-           var plotContainer = document.getElementById("sSfoH0");
+           var plotContainer = document.getElementById("zNgFRD");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -147,7 +147,7 @@ Use ``xlab()``, ``ylab()`` and ``labs()`` functions to set plot labels.
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="O1HaLG"></div>
+              <div id="OVGFBl"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "data":{
@@ -178,7 +178,7 @@ Use ``xlab()``, ``ylab()`` and ``labs()`` functions to set plot labels.
     }
     }]
     };
-           var plotContainer = document.getElementById("O1HaLG");
+           var plotContainer = document.getElementById("OVGFBl");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -190,7 +190,7 @@ Use ``xlab()``, ``ylab()`` and ``labs()`` functions to set plot labels.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.126 seconds)
+   **Total running time of the script:** ( 0 minutes  0.180 seconds)
 
 
 .. _sphx_glr_download_gallery__labels_plot__labels.py:

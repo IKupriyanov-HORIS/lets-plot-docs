@@ -90,7 +90,7 @@ Map continuous values to visual values.
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="v4eWAc"></div>
+              <div id="eElQH0"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "kind":"ggbunch",
@@ -161,7 +161,7 @@ Map continuous values to visual values.
     }
     }]
     };
-           var plotContainer = document.getElementById("v4eWAc");
+           var plotContainer = document.getElementById("eElQH0");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -205,7 +205,7 @@ Map discrete values to visual values.
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="ES0ycj"></div>
+              <div id="ApuMyB"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "kind":"ggbunch",
@@ -280,7 +280,7 @@ Map discrete values to visual values.
     }
     }]
     };
-           var plotContainer = document.getElementById("ES0ycj");
+           var plotContainer = document.getElementById("ApuMyB");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -325,7 +325,7 @@ Use data values **as** visual values.
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="NmQvta"></div>
+              <div id="Awag7L"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "kind":"ggbunch",
@@ -403,7 +403,7 @@ Use data values **as** visual values.
     }
     }]
     };
-           var plotContainer = document.getElementById("NmQvta");
+           var plotContainer = document.getElementById("Awag7L");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -447,7 +447,7 @@ Map discrete values to manually chosen visual values.
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="qO5p69"></div>
+              <div id="6jqbwK"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "kind":"ggbunch",
@@ -522,7 +522,7 @@ Map discrete values to manually chosen visual values.
     }
     }]
     };
-           var plotContainer = document.getElementById("qO5p69");
+           var plotContainer = document.getElementById("6jqbwK");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -534,7 +534,7 @@ Map discrete values to manually chosen visual values.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.361 seconds)
+   **Total running time of the script:** ( 0 minutes  0.300 seconds)
 
 
 .. _sphx_glr_download_gallery__scales_plot__general_purpose_scales.py:

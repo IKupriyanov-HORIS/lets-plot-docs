@@ -143,7 +143,7 @@ Look at the examples below.
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="CwCz3w"></div>
+              <div id="U6JPVu"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "kind":"ggbunch",
@@ -223,7 +223,7 @@ Look at the examples below.
     }
     }]
     };
-           var plotContainer = document.getElementById("CwCz3w");
+           var plotContainer = document.getElementById("U6JPVu");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -235,7 +235,7 @@ Look at the examples below.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  3.137 seconds)
+   **Total running time of the script:** ( 0 minutes  2.897 seconds)
 
 
 .. _sphx_glr_download_gallery__zooming_plot__with_clipping.py:

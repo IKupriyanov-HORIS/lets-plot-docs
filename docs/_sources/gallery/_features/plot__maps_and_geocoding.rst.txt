@@ -207,7 +207,7 @@ Polygons and ``map_join``
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="gszigy"></div>
+              <div id="wH7SuJ"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "mapping":{
@@ -253,7 +253,7 @@ Polygons and ``map_join``
     "color":"white"
     }]
     };
-           var plotContainer = document.getElementById("gszigy");
+           var plotContainer = document.getElementById("wH7SuJ");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -292,7 +292,7 @@ Interactive Map
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="TRxGdS"></div>
+              <div id="aY8V5X"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "mapping":{
@@ -355,7 +355,7 @@ Interactive Map
     "alpha":0.3
     }]
     };
-           var plotContainer = document.getElementById("TRxGdS");
+           var plotContainer = document.getElementById("aY8V5X");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -395,7 +395,7 @@ Custom Theme
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="Tt1aQK"></div>
+              <div id="fUlupi"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "mapping":{
@@ -458,7 +458,7 @@ Custom Theme
     "alpha":0.3
     }]
     };
-           var plotContainer = document.getElementById("Tt1aQK");
+           var plotContainer = document.getElementById("fUlupi");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -500,7 +500,7 @@ Custom Tile Server
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="yFwtMY"></div>
+              <div id="HFwLiP"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "mapping":{
@@ -558,7 +558,7 @@ Custom Tile Server
     "alpha":0.7
     }]
     };
-           var plotContainer = document.getElementById("yFwtMY");
+           var plotContainer = document.getElementById("HFwLiP");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -570,7 +570,7 @@ Custom Tile Server
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  5.290 seconds)
+   **Total running time of the script:** ( 0 minutes  5.030 seconds)
 
 
 .. _sphx_glr_download_gallery__features_plot__maps_and_geocoding.py:

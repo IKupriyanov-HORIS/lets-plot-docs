@@ -92,7 +92,7 @@ Look at the examples below.
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="rKdOxF"></div>
+              <div id="cXtmjZ"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "kind":"ggbunch",
@@ -254,7 +254,7 @@ Look at the examples below.
     }
     }]
     };
-           var plotContainer = document.getElementById("rKdOxF");
+           var plotContainer = document.getElementById("cXtmjZ");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>

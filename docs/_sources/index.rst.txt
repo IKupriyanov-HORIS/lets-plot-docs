@@ -5,9 +5,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. include:: _shared/previews.rst
 
-Declarative Data Visualization with Lets-Plot
-=============================================
+
+Lets-Plot: Declarative Data Visualization Library
+=================================================
 
 .. panels::
     :container: + preview-window
@@ -45,14 +47,16 @@ About Lets-Plot |official JetBrains project|
     :column: col-lg-6 col-md-4 col-sm-6 col-xs-12 p-2
     :body: text-justify
 
-    Lets-Plot is an open-source plotting library for statistical data. It is implemented using the Kotlin programming language.
+    **Lets-Plot** is an open-source plotting library for statistical data. It is implemented using the Kotlin programming language.
+
+    **Lets-Plot** supports geospatial data and has some convenient :ref:`features <features>` to help you explore it.
 
     ---
     :column: col-lg-8 col-md-4 col-sm-6 col-xs-12 p-2
 
-    The Lets-Plot for Python library includes a native backend and a Python API, which was mostly based on the `ggplot2 <https://ggplot2.tidyverse.org>`__ package well-known to data scientists who use R.
+    The **Lets-Plot** for Python library includes a native backend and a :ref:`Python API <api>`, which was mostly based on the `ggplot2 <https://ggplot2.tidyverse.org>`__ package well-known to data scientists who use R.
 
-    To learn more about grammar of graphics read an excellent book "ggplot2: Elegant Graphics for Data Analysis". It will be good prerequisite for further exploration of the Lets-Plot library.
+    To learn more about the grammar of graphics, we recommend an excellent book called "ggplot2: Elegant Graphics for Data Analysis". It will be a good prerequisite for further exploration of the **Lets-Plot** library.
 
     ---
     :column: col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2
@@ -89,9 +93,9 @@ About Lets-Plot |official JetBrains project|
 Try it now with Datalore
 ------------------------
 
-You can try the Lets-Plot library in `Datalore <https://datalore.jetbrains.com>`__. Lets-Plot is available in Datalore out-of-the-box.
+You can try the **Lets-Plot** library in `Datalore <https://datalore.jetbrains.com>`__. **Lets-Plot** is available in Datalore out-of-the-box.
 
-The advantage of `Datalore <https://datalore.jetbrains.com>`__ as a learning tool in comparison to Jupyter is that it is equipped with very friendly Python editor which comes with auto-completion, intentions, and other useful coding assistance features.
+The advantage of `Datalore <https://datalore.jetbrains.com>`__ as a learning tool in comparison to Jupyter is that it is equipped with a very friendly Python editor which comes with auto-completion, intentions and other useful coding assistance features.
 
 Begin with the `quickstart in Datalore <https://view.datalore.io/notebook/Zzg9EVS6i16ELQo3arzWsP>`__ notebook to learn more about Datalore notebooks.
 
@@ -104,9 +108,9 @@ Begin with the `quickstart in Datalore <https://view.datalore.io/notebook/Zzg9EV
 Quickstart
 ----------
 
-You can use Lets-Plot in Jupyter notebook or other notebook of your choice, like Datalore, Kaggle or Colab.
+You can use **Lets-Plot** in a Jupyter notebook or another notebook of your choice, like Datalore, Kaggle or Colab.
 
-To evaluate the plotting capabilities of Lets-Plot, add the following code to a Jupyter notebook:
+To evaluate the plotting capabilities of **Lets-Plot**, add the following code to a Jupyter notebook:
 
 .. jupyter-execute::
     :linenos:
@@ -198,5 +202,3 @@ More Examples
     <div id="preview-gallery-more">
       <a href="gallery/index.html" class="reference internal">Show More</a>
     </div>
-
-.. include:: _shared/previews.rst

@@ -84,7 +84,7 @@ See
            <script type="text/javascript" data-lets-plot-script="library" src="https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.0.4/js-package/distr/lets-plot.min.js"></script>
        </head>
        <body>
-              <div id="WyoAOB"></div>
+              <div id="UrplF0"></div>
        <script type="text/javascript" data-lets-plot-script="plot">
            var plotSpec={
     "mapping":{
@@ -131,7 +131,7 @@ See
     "color":"#0571b0"
     }]
     };
-           var plotContainer = document.getElementById("WyoAOB");
+           var plotContainer = document.getElementById("UrplF0");
            LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
        </script>
        </body>
@@ -143,7 +143,7 @@ See
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  0.074 seconds)
+   **Total running time of the script:** ( 0 minutes  0.160 seconds)
 
 
 .. _sphx_glr_download_gallery__position_adjustments_plot__nudge_position.py:
