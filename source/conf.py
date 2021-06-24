@@ -16,7 +16,6 @@ import sys
 sys.path.insert(0, os.path.abspath('./_ext'))
 
 import sphinx_bootstrap_theme
-from sphinx_gallery.sorting import ExplicitOrder, FileNameSortKey
 
 
 # -- Project information -----------------------------------------------------
@@ -36,9 +35,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.githubpages',
     'jupyter_sphinx',
-    'sphinx_gallery.gen_gallery',
     'sphinx_panels',
-    'sphinx_gallery_jupyter',
     'create_cname',
 ]
 
@@ -54,31 +51,6 @@ napoleon_google_docstring = True
 napoleon_numpy_docstring = True
 napoleon_use_param = False
 
-examples_dirs = 'gallery_py'
-
-sphinx_gallery_conf = {
-    'examples_dirs': examples_dirs,
-    'gallery_dirs': 'gallery',
-    'remove_config_comments': True,
-    'subsection_order': ExplicitOrder(['{0}/_basics'.format(examples_dirs),
-                                       '{0}/_features'.format(examples_dirs),
-                                       '{0}/_geoms'.format(examples_dirs),
-                                       '{0}/_stats'.format(examples_dirs),
-                                       '{0}/_scales'.format(examples_dirs),
-                                       '{0}/_coordinate_systems'.format(examples_dirs),
-                                       '{0}/_faceting'.format(examples_dirs),
-                                       '{0}/_position_adjustments'.format(examples_dirs),
-                                       '{0}/_labels'.format(examples_dirs),
-                                       '{0}/_legends'.format(examples_dirs),
-                                       '{0}/_themes'.format(examples_dirs),
-                                       '{0}/_zooming'.format(examples_dirs),]),
-    'within_subsection_order': FileNameSortKey,
-}
-
-sphinx_gallery_jupyter_conf = {
-    'notebooks_dirs': '../source_gallery',
-    'examples_dirs': examples_dirs,
-}
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -109,7 +81,6 @@ html_theme_options = {
     'navbar_title': 'Lets-Plot',
     'navbar_links': [
       ('API', 'pages/api'),
-      ('Gallery', 'gallery/index'),
       ('Features', 'pages/features'),
     ],
     'bootswatch_theme': 'flatly', # List of themes for v3: https://bootswatch.com/3

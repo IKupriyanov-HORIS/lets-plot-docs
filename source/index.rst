@@ -200,5 +200,5 @@ More Examples
 .. raw:: html
 
     <div id="preview-gallery-more">
-      <a href="gallery/index.html" class="reference internal">Show More</a>
+      <a href="#" class="reference internal">Show More</a>
     </div>
