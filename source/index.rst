@@ -15,22 +15,22 @@ Lets-Plot: Declarative Data Visualization Library
     :container: + preview-window
     :column: col-lg-12 p-2
 
-    |airport-full-kaggle|
+    |map_airports_4x3-kaggle|
 
 .. panels::
     :container: + previews preview-picker
     :column: col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2
 
-    |airport-kaggle|
+    |map_airports-kaggle|
 
     ---
-    |geom_smooth-nbviewer|
+    |geom_smooth_matrix-nbviewer|
 
     ---
-    |kotlin_isl-nbviewer|
+    |geopandas_kotlin_isl-nbviewer|
 
     ---
-    |formatting_axes-nbviewer|
+    |formatting_axes_etc-nbviewer|
 
 About Lets-Plot |official JetBrains project|
 --------------------------------------------
@@ -183,7 +183,7 @@ More Examples
     |airbnb_boston-datalore|
 
     ---
-    |tooltip-nbviewer|
+    |tooltip_config-nbviewer|
 
     ---
     |sampling_groups-nbviewer|
