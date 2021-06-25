@@ -38,7 +38,7 @@ function handlePreviewWindow() {
   const previewWindowImageElem = previewWindowLinkElem.getElementsByTagName('img')[0];
   const previewLinkOnClick = function (event) {
     event.preventDefault();
-    previewWindowImageElem.setAttribute('src', event.target.getAttribute('src').replace('.png', '_full.png'));
+    previewWindowImageElem.setAttribute('src', event.target.getAttribute('src').replace('.png', '_4x3.png'));
     previewWindowLinkElem.setAttribute('href', event.currentTarget.getAttribute('href'));
   }
 

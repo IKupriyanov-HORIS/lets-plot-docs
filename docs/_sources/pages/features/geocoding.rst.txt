@@ -500,6 +500,6 @@ Join with ``Geocoder``
 - ``map_join=[['City_Name', 'State_Name'], ['city', 'state']]``:
   Explicitly set keys for both data and map.
 
-**NB: Generated keys follow this order - ``city``, ``county``, ``state``, ``country``.
-Parents that were not provided will be omitted.
-Data columns should follow the same order or result of join operation will be incorrect.**
+.. note::
+
+    Generated keys follow this order - ``city``, ``county``, ``state``, ``country``. Parents that were not provided will be omitted. Data columns should follow the same order or result of join operation will be incorrect.

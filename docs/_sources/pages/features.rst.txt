@@ -1,6 +1,6 @@
 .. _features:
 
-.. include:: ../_shared/previews.rst
+.. include:: /_shared/previews_all.rst
 
 Features
 ########

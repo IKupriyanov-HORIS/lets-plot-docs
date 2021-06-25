@@ -53,6 +53,7 @@
           <ul class="nav navbar-nav">
             
                 <li><a href="../api.html">API</a></li>
+                <li><a href="../gallery.html">Gallery</a></li>
                 <li><a href="../features.html">Features</a></li>
             
             
@@ -461,7 +462,7 @@ For more complex plots parameter <a class="reference internal" href="#geocoding-
 <ul class="simple">
 <li><p>Visualization of Airport Data on Map: <a class="reference external" href="https://www.kaggle.com/alshan/visualization-of-airport-data-on-map"><img alt="View at Kaggle" height="20px" src="https://raw.githubusercontent.com/JetBrains/lets-plot/master/docs/examples/images/logo_kaggle.svg" width="20px" /></a></p></li>
 </ul>
-<a class="reference internal image-reference" href="../../_images/map_airports.png"><img alt="Couldn't load map_airports.png" src="../../_images/map_airports.png" style="width: 547px; height: 311px;" /></a>
+<a class="reference internal image-reference" href="../../_images/map_airports1.png"><img alt="Couldn't load map_airports.png" src="../../_images/map_airports1.png" style="width: 547px; height: 311px;" /></a>
 </div>
 <div class="section" id="reference">
 <span id="geocoding-reference"></span><h2>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
@@ -2053,7 +2054,7 @@ Note that bbox of the polygon will be used:</p>
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="em0k3N"></div>
+<div id="r26MtZ"></div>
 <script type="text/javascript" data-lets-plot-script="library">
     if(!window.letsPlotCallQueue) {
         window.letsPlotCallQueue = [];
@@ -2077,13 +2078,13 @@ Note that bbox of the polygon will be used:</p>
             var div = document.createElement("div");
             div.style.color = 'darkred';
             div.textContent = 'Error loading Lets-Plot JS';
-            document.getElementById("em0k3N").appendChild(div);
+            document.getElementById("r26MtZ").appendChild(div);
         };
-        var e = document.getElementById("em0k3N");
+        var e = document.getElementById("r26MtZ");
         e.appendChild(script);
     })()
 </script>
-</div><div class="output text_html">   <div id="NLG9Ve"></div>
+</div><div class="output text_html">   <div id="Gh3r7G"></div>
    <script type="text/javascript" data-lets-plot-script="plot">
        (function() {
            var plotSpec={
@@ -2113,7 +2114,7 @@ Note that bbox of the polygon will be used:</p>
 }
 }]
 };
-           var plotContainer = document.getElementById("NLG9Ve");
+           var plotContainer = document.getElementById("Gh3r7G");
            window.letsPlotCall(function() {{
                LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
            }});
@@ -2132,7 +2133,7 @@ Just pass a <code class="docutils literal notranslate"><span class="pre">Geocode
 </td></tr></table></div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_html">   <div id="a3wsh7"></div>
+<div class="output text_html">   <div id="hy6vDy"></div>
    <script type="text/javascript" data-lets-plot-script="plot">
        (function() {
            var plotSpec={
@@ -2162,7 +2163,7 @@ Just pass a <code class="docutils literal notranslate"><span class="pre">Geocode
 }
 }]
 };
-           var plotContainer = document.getElementById("a3wsh7");
+           var plotContainer = document.getElementById("hy6vDy");
            window.letsPlotCall(function() {{
                LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
            }});
@@ -2224,9 +2225,10 @@ same as <code class="docutils literal notranslate"><span class="pre">[['City_Nam
 <li><p><code class="docutils literal notranslate"><span class="pre">map_join=[['City_Name',</span> <span class="pre">'State_Name'],</span> <span class="pre">['city',</span> <span class="pre">'state']]</span></code>:
 Explicitly set keys for both data and map.</p></li>
 </ul>
-<p><strong>NB: Generated keys follow this order - ``city``, ``county``, ``state``, ``country``.
-Parents that were not provided will be omitted.
-Data columns should follow the same order or result of join operation will be incorrect.</strong></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Generated keys follow this order - <code class="docutils literal notranslate"><span class="pre">city</span></code>, <code class="docutils literal notranslate"><span class="pre">county</span></code>, <code class="docutils literal notranslate"><span class="pre">state</span></code>, <code class="docutils literal notranslate"><span class="pre">country</span></code>. Parents that were not provided will be omitted. Data columns should follow the same order or result of join operation will be incorrect.</p>
+</div>
 </div>
 </div>
 </div>
