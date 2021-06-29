@@ -15,22 +15,22 @@ Interactive Maps
     |titanic-kaggle|
 
     ---
-    |airport-kaggle|
+    |map_airports-kaggle|
 
     ---
-    |basemaps-kaggle|
+    |the_gallery_of_basemaps-kaggle|
 
     ---
-    |mapping_US_household-kaggle|
+    |mapping_US_household_income-kaggle|
 
     ---
-    |airbnb_boston-datalore|
+    |plotting_airbnb_prices_boston-datalore|
 
     ---
     |beijing-kaggle|
 
     ---
-    |california_housing-nbviewer|
+    |map_california_housing-nbviewer|
 
 **Lets-Plot** supports interactive maps via the ``geom_livemap()`` geom layer which enables a researcher to visualize geospatial information on a zoomable and paneble map.
 
@@ -46,10 +46,10 @@ Geocoding
     |geocoding_examples-nbviewer|
 
     ---
-    |mapping_US_household-kaggle|
+    |mapping_US_household_income-kaggle|
 
     ---
-    |map_US_household-nbviewer|
+    |map_US_household_income-nbviewer|
 
     ---
     |titanic-kaggle|
@@ -70,10 +70,10 @@ GeoPandas Support
     |geopandas_naturalearth-nbviewer|
 
     ---
-    |airbnb_boston-datalore|
+    |plotting_airbnb_prices_boston-datalore|
 
     ---
-    |kotlin_isl-nbviewer|
+    |geopandas_kotlin_isl-nbviewer|
 
 GeoPandas GeoDataFrame is a tabular data structure that contains a set of shapes (geometry) per each observation.
 
@@ -138,7 +138,7 @@ Formatting
 .. panels::
     :column: col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2
 
-    |formatting_axes-nbviewer|
+    |formatting_axes_etc-nbviewer|
 
     ---
     |label_format-nbviewer|
@@ -147,7 +147,7 @@ Formatting
     |facets-nbviewer|
 
     ---
-    |airport-kaggle|
+    |map_airports-kaggle|
 
 **Lets-Plot** supports formatting of values of numeric and date-time types.
 
@@ -162,10 +162,10 @@ Tooltip Customization
 .. panels::
     :column: col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2
 
-    |tooltip-nbviewer|
+    |tooltip_config-nbviewer|
 
     ---
-    |airport-kaggle|
+    |map_airports-kaggle|
 
 You can customize the content of tooltips for the layer by using the parameter ``tooltips`` of ``geom`` functions.
 

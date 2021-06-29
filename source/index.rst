@@ -180,7 +180,7 @@ More Examples
     |image_matrix-nbviewer|
 
     ---
-    |airbnb_boston-datalore|
+    |plotting_airbnb_prices_boston-datalore|
 
     ---
     |tooltip_config-nbviewer|

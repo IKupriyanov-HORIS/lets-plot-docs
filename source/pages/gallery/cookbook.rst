@@ -35,11 +35,65 @@ The 'bistro' Package
 
     Set of images in a grid
 
-.. GeoPandas Support
+GeoPandas Support
+-----------------
 
-.. Interactive Maps
+.. panels::
+    :column: col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2
 
-.. Geocoding
+    |geopandas_geodataframe-nbviewer|
+
+    Basics with GeoDataFrame
+
+    ---
+    |geopandas_naturalearth-nbviewer|
+
+    The world map with Lets-Plot and GeoPandas
+
+    ---
+    |geopandas_kotlin_isl-nbviewer|
+
+    An inset map of Kotlin island
+
+Interactive Maps
+----------------
+
+.. panels::
+    :column: col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2
+
+    |map_california_housing-nbviewer|
+
+    Visulizing spatial information
+
+    ---
+    |bar_on_livemap-nbviewer|
+
+    Bar on livemap
+
+    ---
+    |the_gallery_of_basemaps-kaggle|
+
+    The gallery of base-maps
+
+Geocoding
+---------
+
+.. panels::
+    :column: col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2
+
+    |geocoding_reference-nbviewer|
+
+    Brief overview of the geocoding in Lets-Plot
+
+    ---
+    |geocoding_examples-nbviewer|
+
+    Geocoding examples
+
+    ---
+    |map_US_household_income-nbviewer|
+
+    Geocoding the US counties
 
 GGBunch
 -------
@@ -57,7 +111,40 @@ Collection of plots on one figure
     ---
     |scatter_matrix-nbviewer|
 
-.. Data Sampling
+Data Sampling
+-------------
+
+.. panels::
+    :column: col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2
+
+    |sampling_random-nbviewer|
+
+    Random sampling on a scatter plot
+
+    ---
+    |sampling_pick-nbviewer|
+
+    Pick sampling on Bar-chart
+
+    ---
+    |sampling_systematic-nbviewer|
+
+    Systematic and random sampling on a line plot
+
+    ---
+    |sampling_stratified-nbviewer|
+
+    Stratified sampling
+
+    ---
+    |sampling_groups-nbviewer|
+
+    Group sampling
+
+    ---
+    |sampling_vertex-nbviewer|
+
+    Vertex sampling
 
 Geoms and Stats
 ---------------
@@ -68,6 +155,26 @@ Geoms and Stats
     |distributions-nbviewer|
 
     Distributions
+
+    ---
+    |bar_geometry-nbviewer|
+
+    Bar plot
+
+    ---
+    |histogram_geometry-nbviewer|
+
+    Histogram plot
+
+    ---
+    |line_type_and_point_shape-nbviewer|
+
+    Considered ``linetype`` and ``shape`` parameters
+
+    ---
+    |line_vs_path-nbviewer|
+
+    Difference between ``geom_line()`` and ``geom_path()``
 
     ---
     |error_bars-nbviewer|
@@ -103,6 +210,11 @@ Geoms and Stats
     |image_fisher_boat-nbviewer|
 
     Draw a PNG image
+
+    ---
+    |how_to_draw_curve-nbviewer|
+
+    How to draw curve fast
 
 Scales
 ------
@@ -208,3 +320,13 @@ Different Platforms
     |bigquery_gis-kaggle|
 
     BigQuery GIS on Kaggle
+
+    ---
+    |plotting_airbnb_prices_boston-medium|
+
+    Boston Airbnb prices on Medium
+
+    ---
+    |titanic-colab|
+
+    Visualization of the Titanic's voyage on Google Colab
