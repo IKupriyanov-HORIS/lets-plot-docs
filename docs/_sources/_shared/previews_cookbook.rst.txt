@@ -1,3 +1,9 @@
+.. |bar_geometry-nbviewer| image:: /examples/cookbook/previews/bar_geometry.png
+    :target: https://nbviewer.jupyter.org/github/HIL-HK/lets-plot-examples/blob/master/features/bar.ipynb
+
+.. |bar_on_livemap-nbviewer| image:: /examples/cookbook/previews/bar_on_livemap.png
+    :target: https://nbviewer.jupyter.org/github/HIL-HK/lets-plot-examples/blob/master/features/bar_on_livemap.ipynb
+
 .. |bigquery_gis-kaggle| image:: /examples/cookbook/previews/bigquery_gis.png
     :target: https://www.kaggle.com/asmirnovhoris/bigquery-gis-and-lets-plot
 
@@ -27,13 +33,36 @@
 .. |formatting_axes_etc_4x3-nbviewer| image:: /examples/cookbook/previews/formatting_axes_etc_4x3.png
     :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/formatting_axes_etc.ipynb
 
+.. |geocoding_examples-nbviewer| image:: /examples/cookbook/previews/geocoding_examples.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geocoding_examples.ipynb
+
+.. |geocoding_reference-nbviewer| image:: /examples/cookbook/previews/geocoding_reference.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geocoding_reference.ipynb
+
 .. |geom_smooth_matrix-nbviewer| image:: /examples/cookbook/previews/geom_smooth_matrix.png
     :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geom_smooth.ipynb
 .. |geom_smooth_matrix_4x3-nbviewer| image:: /examples/cookbook/previews/geom_smooth_matrix_4x3.png
     :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geom_smooth.ipynb
 
+.. |geopandas_geodataframe-nbviewer| image:: /examples/cookbook/previews/geopandas_geodataframe.png
+    :target: https://nbviewer.jupyter.org/github/HIL-HK/lets-plot-examples/blob/master/features/geopandas_GeoDataFrame.ipynb
+
+.. |geopandas_kotlin_isl-nbviewer| image:: /examples/cookbook/previews/geopandas_kotlin_isl.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_kotlin_isl.ipynb
+.. |geopandas_kotlin_isl_4x3-nbviewer| image:: /examples/cookbook/previews/geopandas_kotlin_isl_4x3.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_kotlin_isl.ipynb
+
+.. |geopandas_naturalearth-nbviewer| image:: /examples/cookbook/previews/geopandas_naturalearth.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/geopandas_naturalearth.ipynb
+
 .. |ggbunch-nbviewer| image:: /examples/cookbook/previews/ggbunch.png
     :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/ggbunch.ipynb
+
+.. |histogram_geometry-nbviewer| /examples/cookbook/previews/histogram_geometry.png
+    :target: https://nbviewer.jupyter.org/github/HIL-HK/lets-plot-examples/blob/master/features/histogram.ipynb
+
+.. |how_to_draw_curve-nbviewer| image:: /examples/cookbook/previews/how_to_draw_curve.png
+    :target: https://nbviewer.jupyter.org/github/HIL-HK/lets-plot-examples/blob/master/demo/contours.ipynb
 
 .. |image_101-nbviewer| image:: /examples/cookbook/previews/image_101.png
     :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/image_101.ipynb
@@ -50,14 +79,47 @@
 .. |legend_and_axis-nbviewer| image:: /examples/cookbook/previews/legend_and_axis.png
     :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/legend_and_axis.ipynb
 
+.. |line_type_and_point_shape-nbviewer| image:: /examples/cookbook/previews/line_type_and_point_shape.png
+    :target: https://nbviewer.jupyter.org/github/HIL-HK/lets-plot-examples/blob/master/features/line_type_and_point_shape.ipynb
+
+.. |line_vs_path-nbviewer| image:: /examples/cookbook/previews/line_vs_path.png
+    :target: https://nbviewer.jupyter.org/github/HIL-HK/lets-plot-examples/blob/master/features/line_vs_path.ipynb
+
+.. |map_california_housing-nbviewer| image:: /examples/cookbook/previews/map_california_housing.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/map-california-housing/map_california_housing.ipynb
+
+.. |map_US_household_income-nbviewer| image:: /examples/cookbook/previews/map_US_household_income.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/map_US_household_income.ipynb
+
 .. |quickstart-nbviewer| image:: /examples/cookbook/previews/quickstart.png
     :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/quickstart.ipynb
+
+.. |sampling_groups-nbviewer| image:: /examples/cookbook/previews/sampling_groups.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/sampling_groups.ipynb
+
+.. |sampling_pick-nbviewer| image:: /examples/cookbook/previews/sampling_pick.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/sampling_pick.ipynb
+
+.. |sampling_random-nbviewer| image:: /examples/cookbook/previews/sampling_random.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/sampling_random.ipynb
+
+.. |sampling_stratified-nbviewer| image:: /examples/cookbook/previews/sampling_stratified.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/sampling_stratified.ipynb
+
+.. |sampling_systematic-nbviewer| image:: /examples/cookbook/previews/sampling_systematic.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/sampling_systematic.ipynb
+
+.. |sampling_vertex-nbviewer| image:: /examples/cookbook/previews/sampling_vertex.png
+    :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/sampling_vertex.ipynb
 
 .. |scatter_matrix-nbviewer| image:: /examples/cookbook/previews/scatter_matrix.png
     :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/scatter_matrix.ipynb
 
 .. |scatter_plot-nbviewer| image:: /examples/cookbook/previews/scatter_plot.png
     :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/scatter_plot.ipynb
+
+.. |the_gallery_of_basemaps-kaggle| image:: /examples/cookbook/previews/the_gallery_of_basemaps.png
+    :target: https://www.kaggle.com/alshan/the-gallery-of-basemaps
 
 .. |tooltip_config-nbviewer| image:: /examples/cookbook/previews/tooltip_config.png
     :target: https://nbviewer.jupyter.org/github/JetBrains/lets-plot/blob/master/docs/examples/jupyter-notebooks/tooltip_config.ipynb
